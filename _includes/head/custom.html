@@ -14,4 +14,13 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+
+{% if page.collection == 'publications' %}
+  <meta name="citation_title" content="{{ page.title }}">
+  <meta name="citation_author" content="Gnazzo, Angelo">
+  <meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_online_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+  <meta name="citation_pdf_url" content="{{ site.url }}{{ page.paperurl }}">
+  <meta name="citation_institution" content="ETH Zürich">
+{% endif %}
 <!-- end custom head snippets -->
