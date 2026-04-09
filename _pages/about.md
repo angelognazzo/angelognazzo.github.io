@@ -1,56 +1,41 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Angelo Gnazzo"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+TU Wien & AITHYRA PhD student.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am a PhD student in Machine Learning at TU Wien and [AITHYRA](https://aithyra.at/), advised by [İsmail İlkan Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/) and [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/). 
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+My research focuses on the development of fundamental methodology on generative models, with a particular interest in discrete generative models (language, graphs and other discrete structures) and also the understaing of their statistical guarantees and understanding their capacity for memorization, generalization, and reasoning. These questions are tightly coupled with fundamental challenges in AI4Science, where the ability to generalize beyond the training set and perform structured exploration is critical for large-scale scientific discovery.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Prior to my PhD, I spent some time in industry, working as a Quant Researcher for [LMR Partners](https://www.lmrpartners.com/) within the Inflation and Systematic Fixed Income Team, where I worked on predictive models for inflation and systematic strategies around auction cycles. I later joined Maple Cap as a founding team member following its spinoff from LMR. 
 
-Site-wide configuration
+I completed my MSc in Mathematics at ETH Zürich, where I was fortunate to be supervised by [March Boedihardjo](https://apps.math.msu.edu/PageSpace/pb/boedihardjo) and [Afonso Bandeira](https://people.math.ethz.ch/~abandeira/) for my master thesis, titled "Covariance Estimation for High-Dimensional Distributions". 
+My academic background is rooted in high-dimensional probability and random matrix theory, and I remain deeply fascinated by the "mathematical theory of machine learning" — developing rigorous frameworks to understand how we interpret and learn from big data.
+I was, and still am, fascinated by the theoretical problems as well by the applications to data science, with the goal of understanding what could be called "mathematical theory of big data and machine learning". 
+
+Feel free to [reach out](mailto:agnazzo@aithyra.at) if you wish to collaborate, exchange ideas, or seek thesis supervision.
+
+
+news
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+*   **February, 2026**: I started my PhD at TU Wien and [AITHYRA](https://aithyra.at/), under the supervison by [İsmail İlkan Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/) and [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/)!
+.
+*   **April, 2024**: [MapleCap Partners](https://www.maplecap.com/), spinoff from LMR was officially [launched](https://thehedgefundjournal.com/wp-content/uploads/2025/11/Tomorrows-Titans-2025-%E2%80%93-The-Hedge-Fund-Journal-v1.pdf) and I am proud to be part of it!
+*   **September, 2023**: I have joined [LMR Partners](https://www.lmrpartners.com/) in ther Zürich offices to work as a Quant within the Inflation Team.
+*   **July, 2023**: I have defended my Master Thesis, titled "Covariance Estimation for High-Dimensional Distributions".
+We studied the problem of estimating covariance matrices. In particular, the main question we posed ourselves is: "Which is the minimal sample size n to guarantee that the sample covariance matrix approximates with epsilon accuracy the true covariance matrix?" Take a look at it here!
+*   **February, 2023**: I have defended my Master Thesis, supervised by [March Boedihardjo](https://apps.math.msu.edu/PageSpace/pb/boedihardjo) and [Afonso Bandeira](https://people.math.ethz.ch/~abandeira/) and titled "Covariance Estimation for High-Dimensional Distributions".
+We studied the problem of estimating covariance matrices. In particular, the main question we posed ourselves is: "Which is the minimal sample size n to guarantee that the sample covariance matrix approximates with epsilon accuracy the true covariance matrix?" Take a look at it here!
+*   **June, 2022**: I started working at @ ETH AI Center as a research intern, advised by [Amartya Sanyal](https://amartya18x.github.io/). I am going to be focusing on problems at the intersection of Differential Privacy and Online Learning!
+*   **June, 2022**: I finished my semester research project at ETH. I worked under the supervision of Nikita Zhivotovskiy (now Assistant Professor at @ University of California, Berkeley) and Afonso Bandeira (Professor of Mathematics at @ ETH Zurich) on a survey, titled “Generalization Error Bound via Information-Theoretic Methods and Convex Analysis”.  
+*   **March, 2022**: I published my first blog post on Medium about the “Method of Interlacing Polynomials”, introduced by Adam Marcus, Daniel Spielman, Nikhil Srivastava. Take a look at it [here](https://medium.com/@gnazzoangelo/an-introduction-to-the-method-of-interlacing-polynomials-87798aec38ff). Hopefully, I will be posting more blog posts in the next few months.
+*   **September, 2021**: I started my MSc in Mathematics at @ ETH Zurich!
+*   **July, 2021**: I graduated from @ Politecnico of Milano, obtaining my BSc degree in Mathematical Engineering with the grade of 110/110 cum laude.
