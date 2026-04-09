@@ -26,8 +26,9 @@ Feel free to [reach out](mailto:agnazzo@aithyra.at) if you wish to collaborate, 
 
 news
 ------
+
+*   **March, 2026**: We are teaching [Graph Representation Learning](https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6854&dsrid=79&semester=2026S&courseNr=192197){:target="_blank"} at TU Wien this semester, where I am assisting [İsmail](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/){:target="_blank"} as a Teaching Assistant.
 *   **February, 2026**: I started my PhD at TU Wien and [AITHYRA](https://aithyra.at/){:target="_blank"}, under the supervison by [İsmail İlkan Ceylan](https://www.cs.ox.ac.uk/people/ismaililkan.ceylan/){:target="_blank"} and [Michael Bronstein](https://www.cs.ox.ac.uk/people/michael.bronstein/){:target="_blank"}!
-.
 *   **April, 2024**: [MapleCap Partners](https://www.maplecap.com/){:target="_blank"}, spinoff from LMR was officially [launched](https://thehedgefundjournal.com/wp-content/uploads/2025/11/Tomorrows-Titans-2025-%E2%80%93-The-Hedge-Fund-Journal-v1.pdf){:target="_blank"} and I am proud to be part of it!
 *   **September, 2023**: I have joined [LMR Partners](https://www.lmrpartners.com/){:target="_blank"} in the Zürich offices to work as a Quant within the Inflation Team.
 *   **July, 2023**: I have defended my Master Thesis, supervised by [March Boedihardjo](https://apps.math.msu.edu/PageSpace/pb/boedihardjo){:target="_blank"} and [Afonso Bandeira](https://people.math.ethz.ch/~abandeira/){:target="_blank"} and titled "Covariance Estimation for High-Dimensional Distributions".
