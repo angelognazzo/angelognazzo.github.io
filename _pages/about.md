@@ -18,7 +18,7 @@ These questions are tightly coupled with fundamental challenges in **AI4Science*
 
 Prior to my PhD, I spent some time in industry, working as a Quant Researcher for [LMR Partners](https://www.lmrpartners.com/){:target="_blank"} within the Inflation and Systematic Fixed Income Team, where I worked on predictive models for inflation and systematic strategies around auction cycles. I later joined [MapleCap Partners](https://www.maplecap.com/){:target="_blank"} as a founding team member following its spinoff from LMR. 
 
-I completed my MSc in Mathematics at ETH Zürich, where I was fortunate to be supervised by [March Boedihardjo](https://apps.math.msu.edu/PageSpace/pb/boedihardjo){:target="_blank"} and [Afonso Bandeira](https://people.math.ethz.ch/~abandeira/){:target="_blank"} for my master thesis, titled "[Covariance Estimation for High-Dimensional Distributions](https://angelognazzo.github.io/publication/2023-07-25-covariance-estimation-high-dimensions){:target="_blank"}". 
+I completed my MSc in Mathematics at ETH Zürich, where I was fortunate to be supervised by [March Boedihardjo](https://apps.math.msu.edu/PageSpace/pb/boedihardjo){:target="_blank"} and [Afonso Bandeira](https://people.math.ethz.ch/~abandeira/){:target="_blank"} for my master thesis, titled "[Covariance Estimation for High-Dimensional Distributions](https://angelognazzo.github.io/publication/master-thesis-covariance-estimation-high-dimensions){:target="_blank"}". 
 
 My academic background is in high-dimensional probability and random matrix theory, and I remain deeply fascinated by what could be called "mathematical theory of big data and machine learning".
 
